@@ -1,0 +1,30 @@
+/* Login.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.login-container {
+  max-width: 400px !important;
+  margin: auto;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .login-container {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .login-container {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+}
